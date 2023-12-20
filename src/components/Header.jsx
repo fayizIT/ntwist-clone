@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-// import './Header.css'; 
+ import '../styles/Header.css'; 
 
 const Header = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);

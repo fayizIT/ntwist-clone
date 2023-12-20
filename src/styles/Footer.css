@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footerContainer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+  }
+  
+  .footerContent {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footerLink {
+    margin-right: 10px; /* Adjust the margin to set the fixed space */
+    color: white;
+    text-decoration: none; /* Optional: Remove underline from links */
+  }
+  
