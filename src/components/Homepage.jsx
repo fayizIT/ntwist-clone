@@ -1,15 +1,16 @@
-import React from 'react';
+
 import '../styles/Homepage.css'; // Import the styles
+import Header from './Header';
 
 function Homepage() {
   return (
+    <>
+    <Header/>
     <div className="homepage-container">
       {/* Big Homepage Image */}
-      <div className="big-homepage-image" style={{ backgroundImage: 'url("your-big-homepage-image-url.jpg")' }}>
-        {/* Content Overlay */}
-        <div className="overlay">
-          <h1 className="title">Welcome to Our Homepage</h1>
-        </div>
+      <div className="big-homepage-image" style={{ backgroundImage: 'https://ntwist.com/wp-content/uploads/2023/01/home-image-icons-v6.png' }}>
+       
+       
       </div>
       <br></br>
 
@@ -52,6 +53,7 @@ function Homepage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
